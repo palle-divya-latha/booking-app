@@ -1,0 +1,57 @@
+.main{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    align-items: center;
+}
+.seat{
+    background-color: green;
+    height: 30px;
+    width: 35px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+   
+}
+.seat.selected{
+    background-color: blue;
+}
+
+.seat.occupied{
+    background-color: rgb(7, 7, 7);
+    border: 1px solid rgb(111, 109, 109);
+    
+}
+
+.seat:nth-of-type(4n){
+    margin-right: 20px;
+}
+
+.screen{
+    background-color: #a9a9a9;
+    height: 60px;
+    width: 280px;
+    margin: 40px 8px;
+    transform: perspective(400px) rotateX(-45deg);
+    margin-left: 140px;
+    border: 1px solid rgb(48, 48, 48);
+  
+}
+.screen-seats{
+    margin-right: -40px;
+    margin-left: 10px;
+    align-items: center;
+    padding: 20px;
+}
+
+.screen-body{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 80%, rgba(0,0,0,1) 100%);
+   
+}
+.showcase-seat{
+    padding-left: 100px;
+}
+.screen-adjust{
+    padding-top: 8px;
+}
